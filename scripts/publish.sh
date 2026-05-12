@@ -5,7 +5,7 @@ REPO_NAME="awesome-ai-agents-free-courses"
 DESCRIPTION="A curated list of free online courses and academic lecture series for learning AI agents, LLM agents, and agentic AI."
 
 if [ -z "${GITHUB_TOKEN:-}" ]; then
-  echo "Set GITHUB_TOKEN first. Example: export GITHUB_TOKEN=ghp_..." >&2
+  echo "Set GITHUB_TOKEN first. Example: export GITHUB_TOKEN=<your-token>" >&2
   exit 1
 fi
 
